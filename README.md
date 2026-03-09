@@ -48,6 +48,22 @@ Curso de formación en comunicación TCP/IP para personal técnico, orientado al
 
 ---
 
+## 🗺️ Roadmap
+
+Ver **[ROADMAP.md](ROADMAP.md)** para el estado detallado de cada sección, próximos pasos y entregables pendientes.
+
+### Progreso actual:
+```
+Sección 1: Repaso + Conexión     ████████████████████ 100% ✅
+Sección 2: Modbus TCP            ████████░░░░░░░░░░░░  40% 🟡
+Sección 3: Socket TCP            ░░░░░░░░░░░░░░░░░░░░   0% ⬜
+Sección 4: Webserver             ░░░░░░░░░░░░░░░░░░░░   0% ⬜
+Sección 5: Email SMTP            ░░░░░░░░░░░░░░░░░░░░   0% ⬜
+Sección 6: PLC a PLC + Cierre    ░░░░░░░░░░░░░░░░░░░░   0% ⬜
+```
+
+---
+
 ## 📄 Licencia
 
 Material de uso interno VALBOL. Distribuido como recurso educativo.
