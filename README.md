@@ -8,14 +8,43 @@ Curso de formación en comunicación TCP/IP para personal técnico, orientado al
 
 ## 📋 Contenido del curso (16 horas)
 
-| Módulo | Archivo | Duración | Contenido |
-|--------|---------|----------|-----------|
-| Intro | `Redes_Fisico_a_Logico.pptx` | 30 min | Medios físicos, capas de red, modelo TCP/IP |
-| Módulo 1 | `Modulo1_Repaso_Conexion.pptx` | 1:30 hs | Repaso PLC, software, conexión Ethernet, prácticas |
-| Módulo 2 | `Modulo2_Modbus_TCP.pptx` | 3:00 hs | Historia de Modbus, teoría, 6 ejercicios graduales |
-| General | `Capacitacion_TCP_DVP12SE.pptx` | — | Presentación general: Modbus, Socket, Webserver, Email, PLC a PLC |
-| Guía | `Guia_Practica_TCP_DVP12SE.docx` | — | Ejercicios paso a paso con PLC físico |
-| Planificación | `Resumen_Capacitacion_TCP_16hs.docx` | — | Carga horaria, distribución en jornadas, material necesario |
+### Materiales por módulo
+
+| Módulo | Presentación | Material alumno | Duración |
+|--------|-------------|-----------------|----------|
+| **Intro** | `Redes_Fisico_a_Logico.pptx` | — | 30 min |
+| **Módulo 1** | `Modulo1_Repaso_Conexion.pptx` | — | 1:30 hs |
+| **Módulo 2** | `Modulo2_Modbus_TCP.pptx` | `Guia_Practica_Modulo2_Modbus.docx` | 3:00 hs |
+| | `Modulo2_Ladder_Modbus.pptx` | `Cheatsheet_Modbus_TCP.pdf` | |
+
+### Materiales generales
+
+| Archivo | Descripción |
+|---------|-------------|
+| `Capacitacion_TCP_DVP12SE.pptx` | Presentación general del curso completo (28 slides) |
+| `Guia_Practica_TCP_DVP12SE.docx` | Guía práctica general con ejercicios paso a paso |
+| `Resumen_Capacitacion_TCP_16hs.docx` | Planificación de 16 hs, distribución en jornadas, material necesario |
+| `ROADMAP.md` | Estado del proyecto, próximos pasos, entregables pendientes |
+
+---
+
+## 📂 Detalle por sección
+
+### Sección 1: Repaso + Conexión (2.0 hs) ✅
+
+| Archivo | Tipo | Contenido |
+|---------|------|-----------|
+| `Redes_Fisico_a_Logico.pptx` | PPT instructor (15 slides) | Medios físicos, modelo TCP/IP 4 capas, diagnóstico por capas |
+| `Modulo1_Repaso_Conexion.pptx` | PPT instructor (30 slides) | Qué es un PLC, DVP12SE, Ladder, registros, ISPSoft/COMMGR/DCISoft, conexión Ethernet, 3 prácticas, evaluación |
+
+### Sección 2: Modbus TCP (3.0 hs) ✅
+
+| Archivo | Tipo | Contenido |
+|---------|------|-----------|
+| `Modulo2_Modbus_TCP.pptx` | PPT instructor (27 slides) | Historia 1979, Modicon, timeline, Master/Slave, modelo de datos, mapeo, funciones, trama TCP, 6 ejercicios |
+| `Modulo2_Ladder_Modbus.pptx` | PPT instructor (18 slides) | Diagramas Ladder visuales para cada ejercicio (rieles, contactos, ramas OR, contactos NC) |
+| `Guia_Practica_Modulo2_Modbus.docx` | Word para alumnos | 6 ejercicios con código Ladder completo, diagramas visuales, tablas de verificación |
+| `Cheatsheet_Modbus_TCP.pdf` | PDF 1 página (imprimir) | Fórmula de mapeo, registros, funciones, config DVP12SE, diagnóstico, credenciales |
 
 ---
 
@@ -50,12 +79,12 @@ Curso de formación en comunicación TCP/IP para personal técnico, orientado al
 
 ## 🗺️ Roadmap
 
-Ver **[ROADMAP.md](ROADMAP.md)** para el estado detallado de cada sección, próximos pasos y entregables pendientes.
+Ver **[ROADMAP.md](ROADMAP.md)** para el estado detallado de cada sección y próximos pasos.
 
 ### Progreso actual:
 ```
 Sección 1: Repaso + Conexión     ████████████████████ 100% ✅
-Sección 2: Modbus TCP            ██████████████████░░  90% 🟡
+Sección 2: Modbus TCP            ████████████████████ 100% ✅
 Sección 3: Socket TCP            ░░░░░░░░░░░░░░░░░░░░   0% ⬜
 Sección 4: Webserver             ░░░░░░░░░░░░░░░░░░░░   0% ⬜
 Sección 5: Email SMTP            ░░░░░░░░░░░░░░░░░░░░   0% ⬜
