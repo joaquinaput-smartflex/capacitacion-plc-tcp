@@ -55,7 +55,7 @@ Ver **[ROADMAP.md](ROADMAP.md)** para el estado detallado de cada sección, pró
 ### Progreso actual:
 ```
 Sección 1: Repaso + Conexión     ████████████████████ 100% ✅
-Sección 2: Modbus TCP            ████████░░░░░░░░░░░░  40% 🟡
+Sección 2: Modbus TCP            ██████████████████░░  90% 🟡
 Sección 3: Socket TCP            ░░░░░░░░░░░░░░░░░░░░   0% ⬜
 Sección 4: Webserver             ░░░░░░░░░░░░░░░░░░░░   0% ⬜
 Sección 5: Email SMTP            ░░░░░░░░░░░░░░░░░░░░   0% ⬜
