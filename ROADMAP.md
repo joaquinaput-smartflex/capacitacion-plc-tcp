@@ -9,10 +9,10 @@
 ```
 Sección 1 ████████████████████ 100%  ✅ COMPLETADA
 Sección 2 ██████████████████░░  90%  🟡 Falta evaluación formal
-Sección 3 ████████████░░░░░░░░  55%  🟡 PPT listo, falta guía+ladder+cheat
-Sección 4 ░░░░░░░░░░░░░░░░░░░░   0%  ⬜ Pendiente
-Sección 5 ░░░░░░░░░░░░░░░░░░░░   0%  ⬜ Pendiente
-Sección 6 ░░░░░░░░░░░░░░░░░░░░   0%  ⬜ Pendiente
+Sección 3 ████████████░░░░░░░░  55%  🟡 PPT listo
+Sección 4 ████████████░░░░░░░░  55%  🟡 PPT listo
+Sección 5 ████████████░░░░░░░░  55%  🟡 PPT listo
+Sección 6 ████████████░░░░░░░░  55%  🟡 PPT listo
 ```
 
 ---
