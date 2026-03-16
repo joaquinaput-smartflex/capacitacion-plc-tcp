@@ -6,60 +6,74 @@ Curso de formación en comunicación TCP/IP para personal técnico, orientado al
 
 ---
 
-## 📋 Contenido del curso (16 horas)
+## 📋 Nomenclatura de archivos
 
-### Materiales por módulo
+- **(TC)** = Tema Central — presentación principal del instructor
+- **(GA)** = Guía de Apoyo — material complementario para alumnos o instructor
 
-| Módulo | Presentación | Material alumno | Duración |
-|--------|-------------|-----------------|----------|
-| **Intro** | `Redes_Fisico_a_Logico.pptx` | — | 30 min |
-| **Redes ampliado** | `Redes_Ampliado_IP_MAC_Switch_Router.pptx` | — | 45 min |
-| **Módulo 1** | `Modulo1_Repaso_Conexion.pptx` | — | 1:30 hs |
-| **Módulo 2** | `Modulo2_Modbus_TCP.pptx` | `Guia_Practica_Modulo2_Modbus.docx` | 3:00 hs |
-| | `Modulo2_Ladder_Modbus.pptx` | `Cheatsheet_Modbus_TCP.pdf` | |
-| | `Modulo2_Redes_Profundidad.pptx` | — | 30 min (Bloque A2) |
-
-### Materiales generales
-
-| Archivo | Descripción |
-|---------|-------------|
-| `Capacitacion_TCP_DVP12SE.pptx` | Presentación general del curso completo (28 slides) |
-| `Guia_Practica_TCP_DVP12SE.docx` | Guía práctica general con ejercicios paso a paso |
-| `Resumen_Capacitacion_TCP_16hs.docx` | Planificación de 16 hs, distribución en jornadas, material necesario |
-| `ROADMAP.md` | Estado del proyecto, próximos pasos, entregables pendientes |
+Los archivos se abren en orden secuencial: `00`, `01a`, `01b`, `01c`, `02a`, `02b`, etc.
 
 ---
 
-## 📂 Detalle por sección
+## 📂 Inventario completo de archivos
 
-### Sección 1: Repaso + Conexión (2.0 hs) ✅
+### 00 – Generales
+| Archivo | Tipo | Descripción |
+|---------|------|-------------|
+| `00_Presentacion_General(TC).pptx` | TC | Presentación general del curso completo (28 slides) |
+| `00_Planificacion_16hs(GA).docx` | GA | Carga horaria, distribución en jornadas, material necesario |
+| `00_Guia_Practica_General(GA).docx` | GA | Guía práctica general con ejercicios paso a paso |
 
-| Archivo | Tipo | Contenido |
-|---------|------|-----------|
-| `Redes_Fisico_a_Logico.pptx` | PPT instructor (15 slides) | Medios físicos, modelo TCP/IP 4 capas, diagnóstico por capas |
-| `Modulo1_Repaso_Conexion.pptx` | PPT instructor (30 slides) | Qué es un PLC, DVP12SE, Ladder, registros, ISPSoft/COMMGR/DCISoft, conexión Ethernet, 3 prácticas, evaluación |
+### 01 – Sección 1: Redes + Repaso + Conexión (2.5 hs)
+| Archivo | Tipo | Descripción |
+|---------|------|-------------|
+| `01a_Redes_Fisico_a_Logico(TC).pptx` | TC | Intro redes: medios físicos, modelo TCP/IP, 4 capas (15 slides, 30 min) |
+| `01b_Redes_IP_MAC_DHCP_Switch_Router(TC).pptx` | TC | IP vs MAC, DHCP, ping/tracert, switch vs router (28 slides, 45 min) |
+| `01c_Modulo1_Repaso_Conexion(TC).pptx` | TC | Repaso PLC, software, conexión Ethernet, prácticas (30 slides, 1:30 hs) |
 
-### Sección 2: Modbus TCP (3.0 hs) ✅
+### 02 – Sección 2: Modbus TCP (3.0 hs)
+| Archivo | Tipo | Descripción |
+|---------|------|-------------|
+| `02a_Modulo2_Modbus_TCP(TC).pptx` | TC | Historia, teoría, mapeo, funciones, 6 ejercicios (27 slides) |
+| `02b_Modulo2_Diagramas_Ladder(GA).pptx` | GA | Diagramas Ladder visuales para cada ejercicio (18 slides) |
+| `02c_Modulo2_Guia_Practica_Alumnos(GA).docx` | GA | Guía para alumnos: ejercicios con Ladder, tablas de verificación |
+| `02d_Modulo2_Cheatsheet_Modbus(GA).pdf` | GA | Referencia rápida 1 página: fórmula, registros, funciones |
 
-| Archivo | Tipo | Contenido |
-|---------|------|-----------|
-| `Modulo2_Modbus_TCP.pptx` | PPT instructor (27 slides) | Historia 1979, Modicon, timeline, Master/Slave, modelo de datos, mapeo, funciones, trama TCP, 6 ejercicios |
-| `Modulo2_Ladder_Modbus.pptx` | PPT instructor (18 slides) | Diagramas Ladder visuales para cada ejercicio (rieles, contactos, ramas OR, contactos NC) |
-| `Modulo2_Redes_Profundidad.pptx` | PPT instructor (13 slides) | IP vs MAC, DHCP vs estática, ping, tracert, ipconfig, switch vs router, diagrama de red |
-| | `Modulo2_Redes_Profundidad.pptx` | — | 30 min (Bloque A2) |
-| `Guia_Practica_Modulo2_Modbus.docx` | Word para alumnos | 6 ejercicios con código Ladder completo, diagramas visuales, tablas de verificación |
-| `Cheatsheet_Modbus_TCP.pdf` | PDF 1 página (imprimir) | Fórmula de mapeo, registros, funciones, config DVP12SE, diagnóstico, credenciales |
+### 03 – Sección 3: Socket TCP (1:30 hs)
+| Archivo | Tipo | Descripción |
+|---------|------|-------------|
+| `03a_Modulo3_Socket_TCP(TC).pptx` | TC | Concepto socket, SOCKSND/SOCKRCV, 5 ejercicios (25 slides) |
+
+### 04 – Sección 4: Webserver (1:00 hs)
+| Archivo | Tipo | Descripción |
+|---------|------|-------------|
+| `04a_Modulo4_Webserver(TC).pptx` | TC | Webserver embebido, acceso, prácticas PC+celular (14 slides) |
+
+### 05 – Sección 5: Email SMTP (1:30 hs)
+| Archivo | Tipo | Descripción |
+|---------|------|-------------|
+| `05a_Modulo5_Email_SMTP(TC).pptx` | TC | SMTP, Python, pymodbus, 5 ejercicios graduales (20 slides) |
+
+### 06 – Sección 6: PLC a PLC + Integrador (1:30 hs)
+| Archivo | Tipo | Descripción |
+|---------|------|-------------|
+| `06a_Modulo6_PLC_a_PLC_Integrador(TC).pptx` | TC | Data Exchange, ejercicio integrador, evaluación final (19 slides) |
 
 ---
 
-## 🎯 Temas cubiertos
+## 🗺️ Roadmap
 
-- **Redes industriales**: medios físicos, capas TCP/IP, diagnóstico por capas
-- **Modbus TCP**: historia, arquitectura Master/Slave, mapeo de registros, funciones H03/H06/H10
-- **Socket TCP**: instrucciones SOCKSND/SOCKRCV para comunicación en formato libre
-- **Webserver embebido**: monitoreo del PLC desde navegador web
-- **Email SMTP**: notificaciones y alarmas por correo electrónico
-- **PLC a PLC**: Data Exchange con DCISoft
+Ver **[ROADMAP.md](ROADMAP.md)** para el estado detallado de cada sección y próximos pasos.
+
+### Progreso actual:
+```
+Sección 1: Repaso + Conexión     ████████████████████ 100% ✅
+Sección 2: Modbus TCP            ████████████████████ 100% ✅
+Sección 3: Socket TCP            ████████████░░░░░░░░  55% 🟡 PPT listo
+Sección 4: Webserver             ████████████░░░░░░░░  55% 🟡 PPT listo
+Sección 5: Email SMTP            ████████████░░░░░░░░  55% 🟡 PPT listo
+Sección 6: PLC a PLC + Cierre    ████████████░░░░░░░░  55% 🟡 PPT listo
+```
 
 ---
 
@@ -78,22 +92,6 @@ Curso de formación en comunicación TCP/IP para personal técnico, orientado al
 - Curso básico de PLC aprobado (Ladder, temporizadores, contadores)
 - No se requiere experiencia en comunicaciones industriales
 - No se requiere experiencia en Python
-
----
-
-## 🗺️ Roadmap
-
-Ver **[ROADMAP.md](ROADMAP.md)** para el estado detallado de cada sección y próximos pasos.
-
-### Progreso actual:
-```
-Sección 1: Repaso + Conexión     ████████████████████ 100% ✅ (ampliada)
-Sección 2: Modbus TCP            ████████████████████ 100% ✅
-Sección 3: Socket TCP            ████████████░░░░░░░░  55% 🟡
-Sección 4: Webserver             ████████████░░░░░░░░  55% 🟡
-Sección 5: Email SMTP            ████████████░░░░░░░░  55% 🟡
-Sección 6: PLC a PLC + Cierre    ████████████░░░░░░░░  55% 🟡
-```
 
 ---
 
