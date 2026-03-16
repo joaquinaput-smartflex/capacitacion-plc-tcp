@@ -16,6 +16,7 @@ Curso de formación en comunicación TCP/IP para personal técnico, orientado al
 | **Módulo 1** | `Modulo1_Repaso_Conexion.pptx` | — | 1:30 hs |
 | **Módulo 2** | `Modulo2_Modbus_TCP.pptx` | `Guia_Practica_Modulo2_Modbus.docx` | 3:00 hs |
 | | `Modulo2_Ladder_Modbus.pptx` | `Cheatsheet_Modbus_TCP.pdf` | |
+| | `Modulo2_Redes_Profundidad.pptx` | — | 30 min (Bloque A2) |
 
 ### Materiales generales
 
@@ -43,6 +44,8 @@ Curso de formación en comunicación TCP/IP para personal técnico, orientado al
 |---------|------|-----------|
 | `Modulo2_Modbus_TCP.pptx` | PPT instructor (27 slides) | Historia 1979, Modicon, timeline, Master/Slave, modelo de datos, mapeo, funciones, trama TCP, 6 ejercicios |
 | `Modulo2_Ladder_Modbus.pptx` | PPT instructor (18 slides) | Diagramas Ladder visuales para cada ejercicio (rieles, contactos, ramas OR, contactos NC) |
+| `Modulo2_Redes_Profundidad.pptx` | PPT instructor (13 slides) | IP vs MAC, DHCP vs estática, ping, tracert, ipconfig, switch vs router, diagrama de red |
+| | `Modulo2_Redes_Profundidad.pptx` | — | 30 min (Bloque A2) |
 | `Guia_Practica_Modulo2_Modbus.docx` | Word para alumnos | 6 ejercicios con código Ladder completo, diagramas visuales, tablas de verificación |
 | `Cheatsheet_Modbus_TCP.pdf` | PDF 1 página (imprimir) | Fórmula de mapeo, registros, funciones, config DVP12SE, diagnóstico, credenciales |
 
