@@ -10,7 +10,7 @@
 Sección 1 ████████████████████ 100%  ✅ COMPLETADA
 Sección 2 ██████████████████░░  90%  🟡 Falta evaluación formal
 Sección 3 ████████████████████ 100%  ✅ COMPLETADA
-Sección 4 ██████████████████░░  90%  🟡 PPT+Cheat
+Sección 4 ████████████████████ 100%  ✅ COMPLETADA
 Sección 5 ████████████████████ 100%  ✅ COMPLETADA
 Sección 6 ████████████████████ 100%  ✅ COMPLETADA
 ```
